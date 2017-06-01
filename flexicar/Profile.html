@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="assets/img/favicons.png" />
+        <title>FlexiCar</title>
+        <!-- Bootstrap -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet"> 
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link href="assets/css/bootstrap-select.min.css" rel="stylesheet">
+        <link href="assets/css/wizard2.css" rel="stylesheet">
+        <!-- Fonts css -->
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/orkney" type="text/css" />
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="col-md-4">
+                    <div class="logo">
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed btny" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li>
+                                        <a href="#" class="btny btn">Book Now</a>
+                                    </li>
+                                    <!--<li>
+                                        <a href="#" data-pg-id="35">List A Car</a>
+                                    </li>-->
+                                    <li>
+                                        <a href="#">Learn more</a>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="#" data-toggle="modal" data-target="#SignIn">Sign in</a>
+                                    </li>-->
+                                    <!--<li>
+                                        <a href="#" class="btny btn" data-toggle="modal" data-target="#SignUp">Sign up</a>
+                                    </li>-->
+                                    <li>
+                                        <img src="assets/img/marc.jpg" width="40" height="40" class="img-circle">
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </div>
+                        <!-- /.container-fluid -->
+                    </nav>
+                </div>
+                <div class="clearfix"></div>
+                <h3 class="intro">
+    		Ride in style,<br> <span>Live your Class!</span> </h3>
+            </div>
+        </div>
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <h1 class="text-center">Hello Benjamin!</h1>
+                    <h3 class="text-center">
+                    Your recent trips</h3>
+                </div>
+                <ul class="nav mytabs nav-justified nav-pills">
+                    <li class="">
+                        <a href="#tab1" data-toggle="tab">Your Profile</a>
+                    </li>
+                    <li>
+                        <a href="#tab2" data-toggle="tab"> Your recent Activity</a>
+                    </li>
+                    <li>
+                        <a href="#tab3" data-toggle="tab">Messages</a>
+                    </li>
+                    <!--<li>
+                            <a href="#tab4" data-toggle="tab">Settings</a>
+                        </li>-->
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="tab1">
+                        <form role="form">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="exampleInputEmail1">First Name</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="First name" disabled="disabled">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="exampleInputEmail1">Last Name</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="last name" disabled="disabled">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="exampleInputEmail1">Email Address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" disabled="disabled">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" disabled="disabled">
+                                </div>
+                            </div>
+                            <div class="container">
+                                <p class="text-center">
+                                    Upload your profile picture</p>
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                                        <!-- image-preview-filename input [CUT FROM HERE]-->
+                                        <div class="input-group image-preview">
+                                            <input type="text" class="form-control image-preview-filename" disabled="disabled">
+                                            <!-- don't give a name === doesn't send on POST/GET -->
+                                            <span class="input-group-btn"><!-- image-preview-clear button --><button type="button" class="btn btn-default image-preview-clear" style="display:none;">
+                                                    <span class="glyphicon glyphicon-remove"></span> Clear
+                                                </button><!-- image-preview-input --><div class="btn btn-default image-preview-input">
+                                                    <span class="glyphicon glyphicon-folder-open"></span>
+                                                    <span class="image-preview-input-title">Browse</span>
+                                                    <input type="file" accept="image/png, image/jpeg, image/gif" name="input-file-preview" />
+                                                    <!-- rename it -->
+                                                </div></span>
+                                        </div>
+                                        <!-- /input-group image-preview [TO HERE]-->
+                                    </div>
+                                </div>                                 
+                            </div>
+                            <div class="clearfix space">
+</div>
+                            <button type="submit" class="btn pull-right nextbtn">Finish</button>
+                        </form>
+                    </div>
+                    <div class="tab-pane" id="tab2">
+                        <div class="table-responsive">
+                            <table class="table"> 
+                                <thead> 
+                                    <tr> 
+                                        <th>#</th> 
+                                        <th>Your Ride</th> 
+                                        <th>Date/Time</th> 
+                                        <th>Driver</th>
+                                        <th>Experience</th>
+                                    </tr>                                     
+                                </thead>                                 
+                                <tbody> 
+                                    <tr> 
+                                        <td>1</td> 
+                                        <td>Toyota Highlander</td> 
+                                        <td>23rd June 2017 (3hrs)</td> 
+                                        <td>Johnson</td> 
+                                        <td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+                                    </tr>                                     
+                                    <tr> 
+                                        <td>2</td> 
+                                        <td>Honda Civic 2016</td> 
+                                        <td>15th June 2017 (3hrs)</td> 
+                                        <td>Johnson</td> 
+                                        <td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+                                    </tr>                                     
+                                    <tr> 
+                                        <td>3</td> 
+                                        <td>Mercedes E450</td> 
+                                        <td>3rd June 2017 (3hrs)</td> 
+                                        <td>Johnson</td> 
+                                        <td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td> 
+                                    </tr>                                     
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab3">
+                        <p>Tab 3 content goes here...</p>
+                    </div>
+                    <!--<div class="tab-pane" id="tab4">
+                            <p>Tab 4 content goes here...</p>
+                        </div>-->
+                </div>
+            </div>
+        </section>
+        <div class="clearfix space"></div>
+        <section class="footer">
+            <div class="container">
+                <div class="footlogo">
+                    <img src="assets/img/flexicar-logo-foot.png">
+                </div>
+                <div class="social">
+                    Follow us:
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <p>&copy; Flexicar 2017</p>
+            </div>
+        </section>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="assets/js/bootstrap.js"></script>
+        <script src="assets/js/bootstrap-select.min.js"></script>
+        <script src="assets/js/upload.js"></script>
+        <script src="assets/js/upload2.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            //Initialize tooltips
+            $('.nav-tabs > li a[title]').tooltip();
+
+            //Wizard
+            $('a[data-toggle="tab"]').on('show.bs.tab', function(e) {
+
+                var $target = $(e.target);
+
+                if ($target.parent().hasClass('disabled')) {
+                    return false;
+                }
+            });
+
+            $(".next-step").click(function(e) {
+
+                var $active = $('.wizard .nav-tabs li.active');
+                $active.next().removeClass('disabled');
+                nextTab($active);
+
+            });
+            $(".prev-step").click(function(e) {
+
+                var $active = $('.wizard .nav-tabs li.active');
+                prevTab($active);
+
+            });
+        });
+
+        function nextTab(elem) {
+            $(elem).next().find('a[data-toggle="tab"]').click();
+        }
+
+        function prevTab(elem) {
+            $(elem).prev().find('a[data-toggle="tab"]').click();
+        }
+
+
+        //according menu
+
+        $(document).ready(function() {
+            //Add Inactive Class To All Accordion Headers
+            $('.accordion-header').toggleClass('inactive-header');
+
+            //Set The Accordion Content Width
+            var contentwidth = $('.accordion-header').width();
+            $('.accordion-content').css({});
+
+            //Open The First Accordion Section When Page Loads
+            $('.accordion-header').first().toggleClass('active-header').toggleClass('inactive-header');
+            $('.accordion-content').first().slideDown().toggleClass('open-content');
+
+            // The Accordion Effect
+            $('.accordion-header').click(function() {
+                if ($(this).is('.inactive-header')) {
+                    $('.active-header').toggleClass('active-header').toggleClass('inactive-header').next().slideToggle().toggleClass('open-content');
+                    $(this).toggleClass('active-header').toggleClass('inactive-header');
+                    $(this).next().slideToggle().toggleClass('open-content');
+                } else {
+                    $(this).toggleClass('active-header').toggleClass('inactive-header');
+                    $(this).next().slideToggle().toggleClass('open-content');
+                }
+            });
+
+            return false;
+        });
+    </script>
+        <!-- Sign up Modal -->
+        <div class="modal fade" id="SignUp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">Sign Up to get started</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control input-lg" id="fname" placeholder="First name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control input-lg" id="lname" placeholder="Last name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control input-lg" id="email" placeholder="Your email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control input-lg" id="password" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn btn-success btn-lg btn-block">Sign Up</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="text-center">
+                            <p>OR </p>
+                            <p><a href="#" style="margin-right: 20px;">
+                                    <img src="assets/img/facebook.png" class="img-rounded">
+                                </a><a href="#">
+                                    <img src="assets/img/google.png" class="img-rounded">
+                                </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Login Modal -->
+        <div class="modal fade" id="SignIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">Sign in to access your FlexiCar account</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control input-lg" id="email" placeholder="Your email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control input-lg" id="password" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn btn-success btn-lg btn-block">Sign in</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="text-center">
+                            <p>OR </p>
+                            <p><a href="#" style="margin-right: 20px;">
+                                    <img src="assets/img/facebook.png" class="img-rounded">
+                                </a><a href="#">
+                                    <img src="assets/img/google.png" class="img-rounded">
+                                </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

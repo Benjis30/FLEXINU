@@ -1,0 +1,728 @@
+
+
+body
+{
+    font-family: 'OrkneyRegular';
+}
+
+.header
+{
+    min-height: 450px;
+    background: url('../img/bg-head.png') right bottom no-repeat;
+    padding-top: 40px;
+}
+
+.header .logo
+{
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+
+.header .logo a
+{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background: url('../img/flexicar-logo.png') no-repeat;
+}
+
+.header .navigation
+{
+    float: right;
+}
+
+.header .navigation ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.header .navigation ul li
+{
+    float: left;
+    margin: 0px 10px;
+}
+
+.header .navigation ul li a
+{
+    color: #3c1642;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.header .navigation ul li a.btny, a.btny
+{
+    border: 2px solid #3C1642;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.header h3.intro
+{
+    color: #3c1642;
+    padding-top: 150px;
+    font-weight: normal;
+    font-size: 4.5em;
+}
+
+.header h3.intro span
+{
+    font-weight: bold;
+}
+
+section.searchy
+{
+    padding: 40px 0px;
+    background: #3c1642;
+    min-height: 100px;
+    text-align: center;
+}
+
+section.searchy input, section.searchy select
+{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+section.searchy .form-control[disabled], section.searchy .form-control[readonly], section.searchy fieldset[disabled] section.searchy .form-control
+{
+    background-color: transparent;
+    color: #fff;
+}
+
+section.searchy .input-group
+{
+    min-width: 300px;
+    color: #fff;
+}
+
+section.searchy .form-control::-webkit-input-placeholder, section.searchy .form-control::-moz-placeholder, section.searchy .form-control:-ms-input-placeholder, section.searchy .form-control:-moz-placeholder
+{
+    color: #fff;
+}
+
+section.searchy .input-group-addon
+{
+    background-color: transparent;
+    color: transparent;
+    background: url('../img/arrow-down.png');
+}
+
+section.searchy .btn
+{
+    background: #3c1642;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+section.redefine
+{
+    padding: 30px 0px;
+    text-align: center;
+}
+
+section.redefine h3
+{
+    color: #3c1642;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+section.redefine h3 span
+{
+    font-weight: bold;
+}
+
+section.redefine p
+{
+    color: #3c1642;
+}
+
+section.redefine p.whi
+{
+    color: white;
+    padding: 0px 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+section.redefine .usps
+{
+    background: url('../img/usp-bg.png') no-repeat top center;
+    height: 188px;
+    width: 100%;
+    padding: 20px 100px;
+    margin: 30px auto;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+section.redefine .usps img
+{
+    margin: 0 auto;
+}
+
+.booknow
+{
+    padding: 20px 0px;
+    text-align: center;
+    color: #fff;
+}
+
+.booknow .btn
+{
+    border: 1px solid #fff;
+    margin-top: 20px;
+    color: #fff;
+}
+
+section.package
+{
+    padding: 30px 0px;
+    background: url('../img/package-bg.png') no-repeat bottom;
+}
+
+section.package h4.pack {
+	 padding: 10px;
+	 border: 2px solid #3c1642;
+	 color: #3c1642;
+	 font-size: 30px;
+	 width: auto;
+	 text-align: center;
+	 width: 60%;
+	 margin: 0 auto;
+	 border-radius: 5px;
+}
+
+section.listings
+{
+    padding: 50px 0 0px 0px;
+    text-align: center;
+}
+
+section.listings h3
+{
+    color: #3c1642;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+section.listings h3 span
+{
+    font-weight: bolder;
+}
+
+section.listings .item
+{
+    margin: 40px 0px;
+    display: block;
+    color: #9FD356;
+    font-size: 15px;
+}
+
+section.listings .item img
+{
+    margin-bottom: 10px;
+}
+
+.btn-purple
+{
+    background: #3c1642;
+    color: #fff;
+}
+
+.btn-purple:hover
+{
+    color: #f3f3f3;
+}
+
+ul.image-switch
+{
+    text-align: center;
+    padding: 20px 0px;
+    margin: 40px 0px;
+    list-style: none;
+}
+
+ul.image-switch li
+{
+    font-size: 3rem;
+    margin: 0px 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+ul.image-switch li a
+{
+    color: #C2E395;
+    text-decoration: none;
+}
+
+ul.image-switch li a:hover
+{
+    color: #8ECC3C;
+}
+
+.imge-container
+{
+    margin-top: 50px;
+}
+
+section.testimony, section.footer
+{
+    padding: 30px 0px;
+    background: #9FD356;
+}
+
+section.testimony h3
+{
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0px;
+    color: #fff;
+    font-weight: bold;
+}
+
+section.contact
+{
+    padding: 20px 0px 40px 0px;
+    color: #3c1642;
+}
+
+section.contact h2
+{
+    font-size: 3em;
+}
+
+section.contact input, section.contact textarea
+{
+    border: 1px solid #3c1642;
+    border-radius: 0;
+}
+
+section.contact .col-md-10, section.contact .col-md-2
+{
+    padding: 0;
+}
+
+section.footer
+{
+    color: #fff;
+    position: relative;
+}
+
+section.footer hr
+{
+    border-bottom: 1px #fff;
+    border-bottom-width: thin;
+}
+
+section.footer .footlogo
+{
+    width: 150px;
+    height: 40px;
+    float: left;
+}
+
+section.footer .social
+{
+    float: right;
+}
+
+section.footer .social i
+{
+    border: 1px solid #fff;
+    border-width: thin;
+    border-radius: 50%;
+    padding: 8px;
+    width: 32px;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+section.footer .social a
+{
+    color: #fff;
+}
+
+/* Search Page */
+
+.sHeader
+{
+    width: 100%;
+    background: #543259;
+    min-height: 100px;
+    padding: 20px 0px;
+}
+
+.sHeader .logo
+{
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+
+.sHeader .logo a
+{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background: url('../img/flexicar-logo-white.png') no-repeat;
+}
+
+.sHeader .navbar-default .navbar-nav > li > a
+{
+    color: #fff;
+}
+
+.sHeader .navigation ul li a.btns, a.btns
+{
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.sHeader section.searchy
+{
+    padding: 0px;
+    background: transparent;
+    min-height: 50px;
+    text-align: center;
+}
+
+.packageDiv
+{
+    width: 100%;
+    background: #3c1642;
+    min-height: 40px;
+    padding: 5px 0px;
+    color: #a580ab;
+}
+
+#wrapper
+{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#left-wrap
+{
+    position: absolute;
+    height: 100%;
+}
+
+#left-wrap2
+{
+    position: relative;
+    float: left;
+}
+
+#right-wrap
+{
+    position: relative;
+    float: right;
+}
+
+.sidebar
+{
+    padding: 20px 10px 30px 25px;
+    color: #3c1642;
+    width: px;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.sidebar h5
+{
+    margin-top: 20px;
+}
+
+.sidebar select
+{
+    border: 1px solid #3c1642;
+}
+
+.main-content
+{
+    padding: 25px;
+    background: #f6f6f6;
+}
+
+.main-content .car-item
+{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    height: 423px;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-content .car-item img
+{
+    display: block;
+}
+
+.main-content .car-item .overlay
+{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    background: rgba(0,0,0,0.8);
+    height: 120px;
+    width: 100%;
+}
+
+.main-content .car-item .overlay .car-name
+{
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.main-content .car-item .overlay .car-package, .main-content .car-item .overlay .car-price
+{
+    color: #fff;
+}
+
+.main-content .car-item .overlay .car-price
+{
+    font-weight: bold;
+    font-size: 2em;
+    color: #FFCC00;
+}
+
+.main-content .car-item .overlay .car-price span
+{
+    font-size: 14px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.main-content .car-item .overlay .car-package span
+{
+    font-weight: bold;
+    color: #FFCC00;
+}
+
+.main-content .car-item .overlay .btn
+{
+    margin-top: 10px;
+}
+
+.main-content .car-grid
+{
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    width: 100%;
+    background: #fff;
+}
+
+.main-content .car-grid .car-info
+{
+    padding: 10px 20px;
+}
+
+.main-content .car-grid .car-info h3
+{
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.main-content .car-grid .car-info p span
+{
+    color: #3c1642;
+    font-weight: bold;
+}
+
+.main-content .car-grid .car-info .car-price
+{
+    font-size: 2em;
+    color: #3c1642;
+    font-weight: bold;
+}
+
+.main-content .car-grid .car-info .car-price span
+{
+    font-size: 14px;
+    color: #333;
+}
+
+.main-content .car-grid .car-info .car-price .btn
+{
+    float: right;
+    margin-top: 5px;
+}
+
+.main-content .car-grid .car-info hr
+{
+    margin: 5px 0px;
+}
+
+form.package
+{
+    width: 100%;
+}
+
+form.package select
+{
+    background: transparent url('../img/arrow-down-small.png') right no-repeat;
+    color: #fff;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.packageDiv .form-inline .form-control
+{
+    width: 150px;
+}
+
+form.package label
+{
+    margin-right: 20px;
+}
+
+.packageDiv a i
+{
+    color: #fff;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.packageDiv a.active i
+{
+    color: #a580ab;
+}
+
+button.Loadbtn, a.Loadbtn
+{
+    background: #3c1642;
+    color: #fff;
+}
+
+button.Loadbtn:hover, a.Loadbtn:hover
+{
+    color: #F8F0FF;
+}
+
+.container .box
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container .box .top
+{
+    padding: 12px;
+    background-color: #3c1642;
+    color: white;
+    cursor: pointer;
+}
+
+.container .box .bottom
+{
+    padding: 12px;
+    display: none;
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width : 1200px){
+
+    }
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width : 992px){
+
+    }
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width : 768px)
+{
+    .header h3.intro
+    {
+        font-size: 3.5em;
+    }
+    section.package h4.pack
+    {
+        width: 100%;
+    }
+    ul.image-switch li
+    {
+        font-size: 2.5em;
+        margin: 0px 10px;
+    }
+    .booknow
+    {
+        padding: 5px 0px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width : 480px)
+{
+    .header h3.intro
+    {
+        font-size: 3em;
+    }
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn)
+    {
+        width: 100%;
+    }
+    section.package h4.pack
+    {
+        width: 100%;
+    }
+    ul.image-switch li
+    {
+        font-size: 1.5em;
+        margin: 0px 10px;
+    }
+    .booknow
+    {
+        padding: 5px 0px;
+    }
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width : 320px)
+{
+    .header h3.intro
+    {
+        font-size: 3em;
+    }
+    section.package h4.pack
+    {
+        width: 100%;
+    }
+    ul.image-switch li
+    {
+        font-size: 1.5em;
+        margin: 0px 10px;
+    }
+    .booknow
+    {
+        padding: 5px 0px;
+    }
+}

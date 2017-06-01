@@ -1,0 +1,835 @@
+
+
+body
+{
+    font-family: 'OrkneyRegular';
+}
+
+.header
+{
+    min-height: 450px;
+    padding-top: 40px;
+    background: url('../img/bg-head.png') right bottom no-repeat;
+}
+
+.header .logo
+{
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+
+.header .logo a
+{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background: url('../img/flexicar-logo.png') no-repeat;
+}
+
+.header .navigation
+{
+    float: right;
+}
+
+.header .navigation ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header .navigation ul li
+{
+    float: left;
+    margin: 0px 10px;
+}
+
+.header .navigation ul li a
+{
+    display: block;
+    padding: 10px 20px;
+    color: #3c1642;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header .navigation ul li a.btny,
+a.btny
+{
+    border: 2px solid #3C1642;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.header h3.intro
+{
+    padding-top: 150px;
+    color: #3c1642;
+    font-size: 4.5em;
+    font-weight: normal;
+}
+
+.header h3.intro span
+{
+    font-weight: bold;
+}
+
+section.searchy
+{
+    min-height: 100px;
+    padding: 40px 0px;
+    background: #3c1642;
+    text-align: center;
+}
+
+section.searchy input,
+section.searchy select
+{
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+}
+
+section.searchy .form-control[disabled],
+section.searchy .form-control[readonly],
+section.searchy fieldset[disabled] section.searchy .form-control
+{
+    color: #fff;
+    background-color: transparent;
+}
+
+section.searchy .input-group
+{
+    min-width: 300px;
+    color: #fff;
+}
+
+section.searchy .form-control:-moz-placeholder,
+section.searchy .form-control:-ms-input-placeholder,
+section.searchy .form-control::-moz-placeholder,
+section.searchy .form-control::-webkit-input-placeholder
+{
+    color: #fff;
+}
+
+section.searchy .input-group-addon
+{
+    color: transparent;
+    background: url('../img/arrow-down.png');
+    background-color: transparent;
+}
+
+section.searchy .btn
+{
+    color: #fff;
+    border: 1px solid #fff;
+    background: #3c1642;
+}
+
+section.redefine
+{
+    padding: 30px 0px;
+    text-align: center;
+}
+
+section.redefine h3
+{
+    margin-bottom: 20px;
+    color: #3c1642;
+    font-size: 3em;
+}
+
+section.redefine h3 span
+{
+    font-weight: bold;
+}
+
+section.redefine p
+{
+    color: #3c1642;
+}
+
+section.redefine p.whi
+{
+    padding: 0px 10px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+section.redefine .usps
+{
+    width: 100%;
+    height: 188px;
+    margin: 30px auto;
+    padding: 20px 100px;
+    border-radius: 10px 10px 0px 0px;
+    background: url('../img/usp-bg.png') no-repeat top center;
+    text-align: center;
+}
+
+section.redefine .usps img
+{
+    margin: 0 auto;
+}
+
+.booknow
+{
+    padding: 20px 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.booknow .btn
+{
+    margin-top: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+section.package
+{
+    padding: 30px 0px;
+    background: url('../img/package-bg.png') no-repeat bottom;
+}
+
+section.package h4.pack {
+  width         : auto;
+  width         : 60%;
+  margin        : 0 auto;
+  padding       : 10px;
+  color         : #3c1642;
+  border        : 2px solid #3c1642;
+  border-radius : 5px;
+  text-align    : center;
+  font-size     : 30px;
+}
+
+section.listings
+{
+    padding: 50px 0 0px 0px;
+    text-align: center;
+}
+
+section.listings h3
+{
+    margin-bottom: 20px;
+    color: #3c1642;
+    font-size: 3em;
+}
+
+section.listings h3 span
+{
+    font-weight: bolder;
+}
+
+section.listings .item
+{
+    display: block;
+    margin: 40px 0px;
+    color: #9FD356;
+    font-size: 15px;
+}
+
+section.listings .item img
+{
+    margin-bottom: 10px;
+}
+
+.btn-purple
+{
+    color: #fff;
+    background: #3c1642;
+}
+
+.btn-purple:hover
+{
+    color: #f3f3f3;
+}
+
+ul.image-switch
+{
+    margin: 40px 0px;
+    padding: 20px 0px;
+    text-align: center;
+    list-style: none;
+}
+
+ul.image-switch li
+{
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+ul.image-switch li a
+{
+    color: #C2E395;
+    text-decoration: none;
+}
+
+ul.image-switch li a:hover
+{
+    color: #8ECC3C;
+}
+
+.imge-container
+{
+    margin-top: 50px;
+}
+
+section.footer,
+section.testimony
+{
+    padding: 30px 0px;
+    background: #9FD356;
+}
+
+section.testimony h3
+{
+    margin: 20px 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+section.contact
+{
+    padding: 20px 0px 40px 0px;
+    color: #3c1642;
+}
+
+section.contact h2
+{
+    font-size: 3em;
+}
+
+section.contact input,
+section.contact textarea
+{
+    border: 1px solid #3c1642;
+    border-radius: 0;
+}
+
+section.contact .col-md-2,
+section.contact .col-md-10
+{
+    padding: 0;
+}
+
+section.footer
+{
+    position: relative;
+    color: #fff;
+}
+
+section.footer hr
+{
+    border-bottom: 1px #fff;
+    border-bottom-width: thin;
+}
+
+section.footer .footlogo
+{
+    width: 150px;
+    height: 40px;
+    float: left;
+}
+
+section.footer .social
+{
+    float: right;
+}
+
+section.footer .social i
+{
+    width: 32px;
+    margin: 0px 5px;
+    padding: 8px;
+    border: 1px solid #fff;
+    border-width: thin;
+    border-radius: 50%;
+    text-align: center;
+}
+
+section.footer .social a
+{
+    color: #fff;
+}
+
+/* Search Page */
+
+.sHeader
+{
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 0px;
+    background: #543259;
+}
+
+.sHeader .logo
+{
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+
+.sHeader .logo a
+{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background: url('../img/flexicar-logo-white.png') no-repeat;
+}
+
+.sHeader .navbar-default .navbar-nav > li > a
+{
+    color: #fff;
+}
+
+.sHeader .navigation ul li a.btns,
+a.btns
+{
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.sHeader section.searchy
+{
+    min-height: 50px;
+    padding: 0px;
+    background: transparent;
+    text-align: center;
+}
+
+.packageDiv
+{
+    width: 100%;
+    min-height: 40px;
+    padding: 5px 0px;
+    color: #a580ab;
+    background: #3c1642;
+}
+
+#wrapper
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#left-wrap
+{
+    position: absolute;
+    height: 100%;
+}
+
+#left-wrap2
+{
+    position: relative;
+    float: left;
+}
+
+#right-wrap
+{
+    position: relative;
+    float: right;
+}
+
+.sidebar
+{
+    width: px;
+    padding: 20px 10px 30px 25px;
+    color: #3c1642;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.sidebar h5
+{
+    margin-top: 20px;
+}
+
+.sidebar select
+{
+    border: 1px solid #3c1642;
+}
+
+.main-content
+{
+    padding: 25px;
+    background: #f6f6f6;
+}
+
+.main-content .car-item
+{
+    position: relative;
+    width: 100%;
+    height: 423px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.main-content .car-item img
+{
+    display: block;
+}
+
+.main-content .car-item .overlay
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    padding: 20px;
+    background: rgba(0,0,0,0.8);
+}
+
+.main-content .car-item .overlay .car-name
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.main-content .car-item .overlay .car-package,
+.main-content .car-item .overlay .car-price
+{
+    color: #fff;
+}
+
+.main-content .car-item .overlay .car-price
+{
+    color: #FFCC00;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.main-content .car-item .overlay .car-price span
+{
+    margin-left: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.main-content .car-item .overlay .car-package span
+{
+    color: #FFCC00;
+    font-weight: bold;
+}
+
+.main-content .car-item .overlay .btn
+{
+    margin-top: 10px;
+}
+
+.main-content .car-grid
+{
+    width: 100%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    background: #fff;
+}
+
+.main-content .car-grid .car-info
+{
+    padding: 10px 20px;
+}
+
+.main-content .car-grid .car-info h3
+{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.main-content .car-grid .car-info p span
+{
+    color: #3c1642;
+    font-weight: bold;
+}
+
+.main-content .car-grid .car-info .car-price
+{
+    color: #3c1642;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.main-content .car-grid .car-info .car-price span
+{
+    color: #333;
+    font-size: 14px;
+}
+
+.main-content .car-grid .car-info .car-price .btn
+{
+    float: right;
+    margin-top: 5px;
+}
+
+.main-content .car-grid .car-info hr
+{
+    margin: 5px 0px;
+}
+
+form.package
+{
+    width: 100%;
+}
+
+form.package select
+{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    color: #fff;
+    border: 0;
+    background: transparent url('../img/arrow-down-small.png') right no-repeat;
+}
+
+.packageDiv .form-inline .form-control
+{
+    width: 150px;
+}
+
+form.package label
+{
+    margin-right: 20px;
+}
+
+.packageDiv a i
+{
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.packageDiv a.active i
+{
+    color: #a580ab;
+}
+
+a.Loadbtn,
+button.Loadbtn
+{
+    color: #fff;
+    background: #3c1642;
+}
+
+a.Loadbtn:hover,
+button.Loadbtn:hover
+{
+    color: #F8F0FF;
+}
+
+.container .box
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container .box .top
+{
+    padding: 12px;
+    color: white;
+    background-color: #3c1642;
+    cursor: pointer;
+}
+
+.container .box .bottom
+{
+    display: none;
+    padding: 12px;
+}
+
+/**
+ * ==========
+ *
+ * Non-Mobile First Method
+ *
+ * ==========
+ */
+
+/* Large Devices, Wide Screens */
+
+@media only screen
+       and (max-width : 1200px){
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen
+       and (max-width : 992px){
+}
+
+/* Small Devices, Tablets */
+
+@media only screen
+       and (max-width : 768px)
+{
+    .header h3.intro
+    {
+        font-size: 3.5em;
+    }
+    section.package h4.pack
+    {
+        width: 100%;
+    }
+    ul.image-switch li
+    {
+        margin: 0px 10px;
+        font-size: 2.5em;
+    }
+    .booknow
+    {
+        padding: 5px 0px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen
+       and (max-width : 480px)
+{
+    .header h3.intro
+    {
+        font-size: 3em;
+    }
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn)
+    {
+        width: 100%;
+    }
+    section.package h4.pack
+    {
+        width: 100%;
+    }
+    ul.image-switch li
+    {
+        margin: 0px 10px;
+        font-size: 1.5em;
+    }
+    .booknow
+    {
+        padding: 5px 0px;
+    }
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen
+       and (max-width : 320px)
+{
+    .header h3.intro
+    {
+        font-size: 3em;
+    }
+    section.package h4.pack
+    {
+        width: 100%;
+    }
+    ul.image-switch li
+    {
+        margin: 0px 10px;
+        font-size: 1.5em;
+    }
+    .booknow
+    {
+        padding: 5px 0px;
+    }
+}
+
+.welcome
+{
+    margin-top: 65px;
+    padding-left: 350px;
+}
+
+/* UPLOAD */
+
+.container
+{
+    margin-top: 20px;
+}
+
+.image-preview-input
+{
+    position: relative;
+    margin: 0px;
+    color: #333;
+    overflow: hidden;
+    border-color: #ccc;
+    background-color: #fff;
+}
+
+.image-preview-input input[type=file]
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.image-preview-input-title
+{
+    margin-left: 2px;
+}
+
+.space
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nextbtn
+{
+    color: #3c1642;
+    border: 1px solid #3c1642;
+    background: transparent;
+}
+
+.nextbtn:hover
+{
+    color: #fff !important;
+    background: #3c1642 !important;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),
+               0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.mytabs
+{
+    background: #3c1642;
+}
+
+.mytabs:active
+{
+    color: #ffffff !important;
+    background: #C2E395 !important;
+}
+
+.icon-tins
+{
+    color: 3c1642;
+    font-size: 30px;
+}
+
+.fa-tins
+{
+    color: #3c1642;
+}
+

@@ -1,0 +1,299 @@
+/*Car Details*/
+
+.car-details {
+ margin-bottom : 45px;
+}
+
+.car-details .rating {
+ float       : right;
+ color       : #f7d809;
+ font-size   : 14px;
+ line-height : 21px;
+}
+
+.car-details .title {
+ float          : left;
+ color          : #2e566e;
+ text-transform : uppercase;
+ font-size      : 24px;
+ font-weight    : 700;
+ line-height    : 21px;
+}
+
+.car-details .title span {
+ color       : #3fa7e7;
+ font-weight : 400;
+}
+
+.car-details .image {
+ margin-top    : 34px;
+ margin-bottom : 42px;
+}
+
+.car-details .owl-theme .owl-dots {
+ margin-top : 0;
+}
+
+.car-details .owl-controls {
+ position : absolute;
+ right    : 0;
+ bottom   : 12px;
+ left     : 0;
+}
+
+.car-details .price {
+ margin-top    : 30px;
+ margin-bottom : 17px;
+ padding       : 13px 24px;
+ color         : #fff;
+ background    : #09a0f7;
+ font-size     : 30px;
+ line-height   : 33px;
+}
+
+.car-details .price span {
+ color       : #98d8ff;
+ font-size   : 14px;
+ line-height : 19px;
+}
+
+.car-details .button {
+ margin-right : 13px;
+ padding      : 0 17px;
+ font-size    : 12px;
+ font-weight  : 400;
+ line-height  : 47px;
+}
+
+.car-details .button.dark {
+ border : 1px solid #e3e3e3;
+}
+
+.car-details .button.blue {
+ color  : #0074e1;
+ border : 1px solid #e3e3e3;
+}
+
+.car-details .main-car-details {
+ margin-bottom : 20px;
+}
+
+.car-details .main-car-details .item {
+ border-bottom : 1px solid #d7dce4;
+ line-height   : 48px;
+}
+
+.car-details .main-car-details .item:last-of-type {
+ border-bottom : none;
+}
+
+.car-details .main-car-details .item .option {
+ width          : 50%;
+ float          : left;
+ padding-right  : 32px;
+ text-transform : uppercase;
+}
+
+.car-details .main-car-details .item .option:after {
+ content : ':';
+ float   : right;
+}
+
+.car-details .main-car-details .item .option-content {
+ width : 50%;
+ float : left;
+}
+
+/**
+* Alt
+* ==========================================================================
+*/
+
+.car-details.alt {
+ margin-bottom : 0;
+}
+
+.car-details.alt .image {
+ margin-top    : 0;
+ margin-bottom : 34px;
+}
+
+.car-details .details-box {
+ position : relative;
+ border   : 1px solid #e8ecef;
+}
+
+.car-details .details-box .heading {
+ padding        : 20px 30px;
+ padding-bottom : 20px;
+}
+
+.car-details.alt .price {
+ position      : absolute;
+ top           : 0;
+ right         : 0;
+ margin-top    : 0;
+ margin-bottom : 0;
+ padding       : 7px 20px;
+ font-size     : 24px;
+ line-height   : 33px;
+}
+
+.car-details.alt .price span {
+ font-size   : 12px;
+ line-height : 19px;
+}
+
+.car-details.alt .rating {
+ float       : none;
+ margin-top  : 6px;
+ font-size   : 14px;
+ line-height : 19px;
+}
+
+.car-details.alt .title {
+ float       : none;
+ font-size   : 20px;
+ line-height : 21px;
+}
+
+.car-details.alt .title span {
+ font-weight : 300;
+}
+
+.car-details .details-box {
+ margin-bottom : 34px;
+ color         : #6f828d;
+ font-size     : 13px;
+ line-height   : 21px;
+}
+
+.car-details .details-box .content {
+ padding : 24px 30px;
+}
+
+.car-details .details-box .details-box-details {
+ color       : #8c9aa5;
+ background  : #e8ecef;
+ text-align  : center;
+ font-size   : 16px;
+ font-weight : 400;
+ line-height : 48px;
+}
+
+.car-details .details-box .details-box-details div {
+ float        : left;
+ border-right : 1px solid #dde2e5;
+}
+
+.car-details .details-box .details-box-details i {
+ margin-right : 8px;
+ color        : #8c9aa5;
+}
+
+.car-details .details-box .details-box-details .seats {
+ width : 15%;
+}
+
+.car-details .details-box .details-box-details .fuel {
+ width : 23.33%;
+}
+
+.car-details .details-box .details-box-details .type {
+ width : 15%;
+}
+
+.car-details .details-box .details-box-details .gear {
+ width : 23.33%;
+}
+
+.car-details .details-box .details-box-details .year {
+ width        : 23.33%;
+ border-right : none;
+}
+
+.car-details.alt .button {
+ margin-right : 6px;
+ padding      : 0 18px;
+ font-size    : 12px;
+ font-weight  : 400;
+ line-height  : 32px;
+}
+
+.car-details .specifications {
+ position       : relative;
+ margin-bottom  : 50px;
+ padding        : 20px 26px;
+ padding-bottom : 30px;
+ color          : #e4eae9;
+ background     : #778790;
+}
+
+.car-details .specifications .bg {
+ z-index  : 1;
+ position : absolute;
+ bottom   : 0;
+ left     : 18px;
+}
+
+.car-details .specifications h2 {
+ z-index       : 2;
+ position      : relative;
+ float         : left;
+ margin-bottom : 0;
+}
+
+.car-details .specifications .content {
+ z-index     : 2;
+ position    : relative;
+ margin-left : 250px;
+}
+
+.car-details .specifications .item {
+ font-size   : 15px;
+ line-height : 33px;
+}
+
+.car-details .specifications .item .option {
+ width         : 50%;
+ float         : left;
+ padding-right : 4px;
+}
+
+.car-details .specifications .item .option:after {
+ content : ':';
+ float   : right;
+}
+
+.car-details .specifications .item .option-content {
+ width : 50%;
+ float : left;
+ color : #a9b8bf;
+}
+
+.car-details h6 {
+ margin-bottom : 30px;
+ color         : #3fa7e7;
+ font-size     : 16px;
+ font-weight   : 500;
+ line-height   : 21px;
+}
+
+.car-details .fa-ul {
+ margin-bottom : 30px;
+ font-size     : 14px;
+ font-weight   : 300;
+ line-height   : 25px;
+}
+
+@media all
+      and (max-width : 768px) {
+ .car-details .specifications h2 {
+   float         : none;
+   margin-bottom : 18px;
+ }
+
+ .car-details .specifications .content {
+   margin-left : 0;
+ }
+}

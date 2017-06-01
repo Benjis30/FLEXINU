@@ -1,0 +1,365 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="assets/img/favicons.png" />
+    <title>FlexiCar</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-select.css" rel="stylesheet">
+    
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/orkney" type="text/css"/>     
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.bxslider.css">
+    
+    <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.min.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="header">
+    	<div class="container">
+    		<div class="col-md-4">
+	    		<div class="logo">
+	    			<a href="#"></a>
+	    		</div>
+    		</div>
+    		<div class="col-md-8">
+    			<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed btny" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Book Now</a></li>
+		<li><a href="#">List A Car</a></li>
+		<li><a href="#">Learn more</a></li>
+		<li><a href="#" data-toggle="modal" data-target="#SignIn">Sign in</a></li>
+		<li><a href="#" class="btny btn" data-toggle="modal" data-target="#SignUp">Sign up</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    		</div>
+    		<div class="clearfix"></div>
+    		<h3 class="intro">
+    		Get where you want,<br>
+    		<span>How you want!</span>
+    		</h3>    		
+    	</div>
+    </div>
+    <section class="searchy">
+    	<div class="container">
+    		<form class="form-inline">
+			  <div class="form-group form-group-lg">
+			    <select class="selectpicker">
+			     <option selected="">Where are you?</option>
+				  <option>Apo</option>
+				  <option>Asokoro</option>
+				  <option>Gwarimpa</option>
+				  <option>Garki</option>
+				</select>
+			  </div>
+			  <div class="form-group">
+                <div class="input-group date form_datetime" data-date="2017-01-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1">
+                    <input class="form-control input-lg" size="16" type="text" value="" readonly placeholder="When?">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+                </div>
+				<input type="hidden" id="dtp_input1" value="" /><br/>
+            </div>
+            <div class="form-group">
+                <div class="input-group date form_datetime" data-date="2017-01-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1">
+                    <input class="form-control input-lg" size="16" type="text" value="" readonly placeholder="Till?">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+                </div>
+				<input type="hidden" id="dtp_input1" value="" /><br/>
+            </div>			  
+            <button type="submit" class="btn btn-lg hidden-sm hidden-xs">Search <i class="fa fa-search"></i> </button>
+            <button type="submit" class="btn btn-lg btn-block hidden-lg hidden-md">Search <i class="fa fa-search"></i> </button>
+			</form>
+    	</div>
+    </section>
+    
+    <section class="redefine">
+    	<div class="container">
+    		<h3>Redefining <span>Flexibility...</span></h3>
+    		<p class="lead">The users define their experience by selecting from a range of <br>variables which then allows them to get a ride on thier own terms</p>
+    		<div class="usps hidden-sm hidden-xs text-center">
+    			<div class="col-md-3 col-xs-3">
+    				<img src="assets/img/icons/selection.png" class="img-responsive">
+    				<p class="whi">Wide Selection of vehicles</p>
+    			</div>
+    			<div class="col-md-3 col-xs-3">
+    				<img src="assets/img/icons/budget.png" class="img-responsive">
+    				<p class="whi">Budget Friendly Prices</p>
+    			</div>
+    			<div class="col-md-3 col-xs-3">
+    				<img src="assets/img/icons/experience.png" class="img-responsive">
+    				<p class="whi">Determine Your Experience</p>
+    			</div>
+				<div class="col-md-3 col-xs-3">
+    				<img src="assets/img/icons/loyalty.png" class="img-responsive">
+    				<p class="whi">Loyalty Rewards and Benefits</p>
+    			</div>
+
+    		</div>
+    		
+    	</div>
+    </section>
+    <section class="package">
+    	<div class="container">
+    		<h4 class="pack">We have a thing of two for everyone...</h4>
+    		<ul class="image-switch">
+			  <li><a href="#" data-image="assets/img/packages/flexiyou.png">FlexiYou</a>
+			  <li><a href="#" data-image="assets/img/packages/flexiexec.png">FlexiExec</a>
+			  <li><a href="#" data-image="assets/img/packages/flexivip.png">FlexiVIP</a>
+			</ul>
+						
+			<p align="center" class="image-container">
+				<img src="assets/img/packages/pack-default.png" name="Packages" title="Packages" class="img-responsive">
+			</p> 
+    		<div class="booknow">
+    			<div class="col-md-3 hidden-xs">
+    				<h3>Business <br>as Usual</h3>
+    			</div>
+    			<div class="col-md-6">
+    				<h3>Experience utmost comfort and reliability as you handle your business</h3>
+    			</div>
+    			<div class="col-md-3">
+    				<a href="#" class="btn btn-lg">Book Now</a>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    
+    <section class="listings">
+    	<div class="container">
+    		<div class="col-md-6">
+    			<img src="assets/img/list-car.png" class="img-responsive">
+    		</div>
+    		<div class="col-md-6 text-center">
+    			<h3>Another Way <br> to <spand>Make more...</spand></h3>
+    			<div class="col-md-4 item">
+    				<img src="assets/img/icons/loyalty-biz.png">
+    				<p>Loyalty bonuses for Car owners</p>
+    			</div>
+    			<div class="col-md-4 item">
+    				<img src="assets/img/icons/better-return.png">
+    				<p>Better Return on Investment</p>
+    			</div>
+    			<div class="col-md-4 item">
+    				<img src="assets/img/icons/make-more.png">
+    				<p>Make More in Less Time</p>
+    			</div>
+    			<div class="clearfix"></div>
+    			<p><a href="#" class="btn btn-lg btn-purple">List your Vehicle now</a></p>
+    		</div>
+    	</div>
+    </section>
+    
+    <section class="testimony">
+    	<div class="container">
+    		<h3>Take their word for it...</h3>
+	    		<ul class="bxslider">
+				  <li><img src="assets/img/image-slider1.png" />
+				  	<p>"It was my first time in Abuja and I'm glad I found FlexiCar, getting around was one less thing to worry about"</p>
+				  </li>
+				  <li><img src="assets/img/image-slider2.png" />
+				  	<p>"It's weird how I met my friend Sara when we decided to share a ride and now we are almost inseparable"</p>
+				  </li>
+				  <li><img src="assets/img/image-slider1.png" />
+				  	<p>"It was my first time in Abuja and I'm glad I found FlexiCar, getting around was one less thing to worry about"</p>
+				  </li>
+				  <li><img src="assets/img/image-slider2.png" />
+				  	<p>"It's weird how I met my friend Sara when we decided to share a ride and now we are almost inseparable"</p>
+				  </li>
+
+				</ul>
+    	</div>
+    </section>
+    <section class="contact">
+    	<div class="container">
+    		<div class="col-md-6">
+    			<h2>Contact Us</h2>
+    			<form>
+				  <div class="form-group">
+				    <textarea class="form-control" rows="4" placeholder="Your message..."></textarea>				  
+				 </div>
+				     <div class="form-group">			    
+					    <div class="col-md-10" style="padding-right: 5px;">
+					      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+					    </div>
+					    <div class="col-md-2">
+					    <button type="submit" class="btn btn-purple btn-block">Submit</button>
+					    </div>
+					  </div>  				     
+				</form>
+    		</div>
+    		<div class="col-md-6 text-center">
+    			<h2>Can't Wait?</h2>
+    			<h3>Give us a Call<br>to fast track your <br>booking</h3>
+    			<p><a href="#" class="btn btn-lg btn-purple disabled">Call now <i class="fa fa-phone"></i></a></p>
+
+    		</div>
+    		<div class="clearfix"></div>
+    	</div>
+    </section>
+    
+    <section class="footer">
+    	<div class="container">
+    		<div class="footlogo">
+    			<img src="assets/img/flexicar-logo-foot.png">
+    		</div>
+    		<div class="social">
+    			Follow us:
+    			<a href="#"><i class="fa fa-twitter"></i></a>
+    			<a href="#"><i class="fa fa-facebook-f"></i></a>
+    			<a href="#"><i class="fa fa-google-plus"></i></a> 
+    		</div>
+    	</div>
+    <hr>
+    <div class="container">
+    	<p>&copy; Flexicar 2017</p>
+    </div>
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/js/jquery.bxslider.min.js"></script>
+    <script>
+    	$(document).ready(function(){
+		  $('.bxslider').bxSlider({
+		  minSlides: 2,
+		  maxSlides: 2,
+		  slideWidth: 400,
+		  slideMargin: 20,
+		  controls: false
+		});		});
+    </script>
+    <script type="text/javascript" src="assets/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+	<script type="text/javascript">
+    $('.form_datetime').datetimepicker({
+        weekStart: 1,
+        todayBtn:  1,
+		autoclose: 1,
+		todayHighlight: 1,
+		startView: 2,
+		forceParse: 0,
+        showMeridian: 1,
+        pickerPosition: "bottom-left"
+    });
+    </script>
+    <script type="text/javascript">
+    	$(document).ready(function() {
+		  $('ul.image-switch li').mouseover(function(e) {
+		    if (e.target.nodeName.toLowerCase() == 'a') return;
+		    var image_src = $('a', this).data('image');
+		    var img = $('.image-container img');
+		
+		    if (img.attr('src') != image_src) { // only do the fade if other image is selected
+		      img.fadeOut('slow', function() { // fadeout the current image
+		        img.attr('src', image_src).fadeIn(); // load and fadein new image
+		      });
+		    }
+		  });
+		});    
+	</script>
+<!-- Sign up Modal -->
+<div class="modal fade" id="SignUp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Sign Up to get started</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+			  <div class="form-group">
+			    <input type="text" class="form-control input-lg" id="fname" placeholder="First name">
+			  </div>
+			  <div class="form-group">
+			    <input type="text" class="form-control input-lg" id="lname" placeholder="Last name">
+			  </div>
+				<div class="form-group">
+			    <input type="email" class="form-control input-lg" id="email" placeholder="Your email">
+			  </div>
+			  <div class="form-group">
+			    <input type="password" class="form-control input-lg" id="password" placeholder="Password">
+			  </div>
+			  <button type="submit" class="btn btn-success btn-lg btn-block">Sign Up</button>
+			</form>
+      </div>
+      	      <div class="modal-footer">
+      	      <div class="text-center">
+      	      	<p>OR </p>
+      	      	<p>
+      	      		<a href="#" style="margin-right: 20px; margin-bottom: 10px;"><img src="assets/img/facebook.png" class="img-rounded"></a>
+      	      		<a href="#" style="margin-bottom: 10px;"><img src="assets/img/google.png" class="img-rounded"></a>
+      	      	</p>
+      	      </div>
+        	   
+        </div>
+
+         </div>
+  </div>
+</div>
+
+<!-- Login Modal -->
+<div class="modal fade" id="SignIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Sign in to access your FlexiCar account</h4>
+      </div>
+      <div class="modal-body">
+      	<form>
+       	<div class="form-group">
+			    <input type="email" class="form-control input-lg" id="email" placeholder="Your email">
+			  </div>
+			  <div class="form-group">
+			    <input type="password" class="form-control input-lg" id="password" placeholder="Password">
+			  </div>
+			  <button type="submit" class="btn btn-success btn-lg btn-block">Sign in</button>
+			</form>
+
+      </div>
+      <div class="modal-footer">
+       <div class="text-center">
+      	<p>OR </p>
+      	<p>
+      		<a href="#" style="margin-right: 20px; margin-bottom: 10px;"><img src="assets/img/facebook.png" class="img-rounded"></a>
+      		<a href="#" style="margin-bottom: 10px;"><img src="assets/img/google.png"  class="img-rounded"></a>
+      	</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>
